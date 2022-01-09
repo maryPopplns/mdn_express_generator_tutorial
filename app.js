@@ -7,9 +7,6 @@ var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var database = require(path.join(__dirname, 'helpers/database.js'));
-// var database = require('./helpers/database.js');
-
 var app = express();
 
 //Set up default mongoose connection
