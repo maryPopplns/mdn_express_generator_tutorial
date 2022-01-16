@@ -198,12 +198,13 @@ exports.book_create_post = [
 
 // Display book delete form on GET.
 exports.book_delete_get = function (req, res) {
-  res.send('NOT IMPLEMENTED: Book delete GET');
+  // TODO if a book instance is found with that book, send back an error message
+  // TODO if no book instances are found that match, send back a form with a button that confirms the deletion
 };
 
 // Handle book delete on POST.
 exports.book_delete_post = function (req, res) {
-  res.send('NOT IMPLEMENTED: Book delete POST');
+  // TODO delete the book
 };
 
 // Display book update form on GET.
