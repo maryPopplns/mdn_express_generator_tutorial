@@ -104,12 +104,16 @@ exports.genre_create_post = [
 
 // Display Genre delete form on GET.
 exports.genre_delete_get = function (req, res) {
-  res.send('NOT IMPLEMENTED: Genre delete GET');
+  res.end('delete genre get');
+  // TODO check if theyre any books with that genre
+  // TODO if yes then send back error page saying cant delete genre that is currently being used
+  // TODO if no then send back conformation button
 };
 
 // Handle Genre delete on POST.
 exports.genre_delete_post = function (req, res) {
-  res.send('NOT IMPLEMENTED: Genre delete POST');
+  res.end('delete genre post');
+  // TODO delete the given genre
 };
 
 // Display Genre update form on GET.
