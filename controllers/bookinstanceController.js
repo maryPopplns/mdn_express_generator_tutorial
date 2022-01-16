@@ -148,10 +148,13 @@ exports.bookinstance_delete_post = function (req, res) {
 
 // Display BookInstance update form on GET.
 exports.bookinstance_update_get = function (req, res) {
+  // TODO pull book instance data from database
+  // TODO populate book entry form with pulled data
   res.send('NOT IMPLEMENTED: BookInstance update GET');
 };
 
 // Handle bookinstance update on POST.
 exports.bookinstance_update_post = function (req, res) {
+  // TODO sanatize the input data again and save as long as its valid
   res.send('NOT IMPLEMENTED: BookInstance update POST');
 };
